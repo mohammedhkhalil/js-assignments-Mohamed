@@ -9,7 +9,7 @@
 */
 let shape = prompt("Choose a shape\n\t 1-Triangle\n\t 2-Square");
 shape.toLowerCase();
-if (shape != "Triangle" && shape != "Square")
+if (shape != "triangle" && shape != "square")
   shape = prompt(
     "some missing characters, plz choose again\n\t 1-Triangle\n\t 2-Square"
   );
@@ -24,8 +24,6 @@ if (shape == "triangle") {
   width = hight;
 }
 for (let i = 0; i < hight; ++i) {
-  for (let j = 0; j < width; ++j) {
     if (i == 0 || i == hight - 1) console.log("#".repeat(width));
     else console.log("#", " ".repeat(width - 4), "#");
-  }
 }

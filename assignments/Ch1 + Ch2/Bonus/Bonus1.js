@@ -8,7 +8,7 @@ let num1 = Number(prompt("enter the 1st number")),
   num2 = Number(prompt("enter the 2nd number"));
 let operator = prompt("choose the operator (+ , -, *, /)");
 
-if (oprator == "+") console.log(num1 + num2);
-else if (oprator == "-") console.log(num1 - num2);
-else if (oprator == "*") console.log(num1 * num2);
-else if (oprator == "/") console.log(num1 / num2);
+if (operator == "+") console.log(num1 + num2);
+else if (operator == "-") console.log(num1 - num2);
+else if (operator == "*") console.log(num1 * num2);
+else if (operator == "/") console.log(num1 / num2);
